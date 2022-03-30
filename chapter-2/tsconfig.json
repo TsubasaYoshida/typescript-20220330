@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["es2015"],
+    "lib": [
+      "es2015"
+    ],
     "module": "commonjs",
-    "outDir": "dist",
+    "noEmit": true,
     "sourceMap": true,
     "strict": true,
     "target": "es2015"
